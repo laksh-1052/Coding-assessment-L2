@@ -10,6 +10,7 @@ A brief description about this project :
 
 BONUS POINTS!!!!
 I have hosted this cute website on my github! 
+https://laksh-1052.github.io/Coding-assessment-L2/
 
 Thankyou so much for this opportunity I had fun doing this assignment, hope you select me <3
 
