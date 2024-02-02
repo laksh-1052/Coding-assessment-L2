@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'heading';
+    src: url('https://fonts.google.com/specimen/Inter');
+  }
+  
+   .heading {
+    font-family: 'heading', sans-serif;
+    text-align: center;
+  } 
+  body {
+    font-family: 'heading', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .tabs-container {
+    display: flex;
+    background-color: #eee;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-family: 'heading', sans-serif;
+  
+  }
+  
+  .tab {
+    padding: 15px;
+    cursor: pointer;
+    flex-grow: 1;
+    text-align: center;
+    
+    border-bottom: none;
+  }
+  
+  .tab:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .tab-content {
+    display: none;
+    padding: 20px;
+    
+  }
+  
+  .content-container {
+    background-color: #fff;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  
+  .container {
+    height: 10vh;
+    display: grid;
+    gap: 0rem;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    font-family: 'heading';
+    src: url('https://fonts.google.com/specimen/Inter');
+  }
+  
+  .item {
+    font-size: 1rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .product-card {
+    margin-left: 55px;
+    width: 250px;
+    
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* .badge {
+    background-color: #ff9800;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+  } */
+  
+  #categories {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  .product-title{
+    padding-top: 10px;
+    padding-left: 0px;
+    font-size: large;
+  }
+  .vendor{
+    font-size: 15px;
+  }
+  .per{
+    color:red;
+    font-weight: bold
+  }
+  
+  .product-title, .vendor {
+    display: inline-block;
+    margin: 0;  
+  }
+  .compare-price{
+    color: gray;
+    text-decoration: line-through;
+  }
+  .price, .compare-price, .per {
+    display: inline-block;
+    margin-left: 1px;
+    font-weight: bold 
+  }
+  .add-to-cart-btn{
+    background-color: black;
+    color: white;
+    
+    display: inline-block;
+    padding: 10px 85px;
+    text-align:center;
+    display: inline;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-left: 0px;
+    white-space: nowrap;
+  }
+  
+  .product-image{
+    border-radius: 50%;
+    display: block;
+  }
+  .product-image1{
+    border-radius: 50%;
+    display: block;
+  }
+  .part1{
+    display: flex;
+    justify-content: center;
+    margin-right:6px;
+  }
+
+
+@media only screen and (max-width: 600px) {
+  .tabs-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .product-card {
+    margin-left: 10px;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .tabs-container {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+
